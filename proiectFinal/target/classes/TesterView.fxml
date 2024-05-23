@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.TesterController" stylesheets="@/styles.css" styleClass="root">
+    <Label text="Tester Panel"/>
+    <TextField fx:id="titleField" promptText="Title"/>
+    <TextField fx:id="descriptionField" promptText="Description"/>
+    <Button text="Add Bug" onAction="#handleAddBug"/>
+    <Button text="Update Bug" onAction="#handleUpdateBug"/>
+    <Button text="Delete Bug" onAction="#handleDeleteBug"/>
+    <ListView fx:id="bugListView"/>
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+</VBox>
