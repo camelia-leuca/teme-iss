@@ -709,7 +709,7 @@
 							"top": 264,
 							"width": 136.1279296875,
 							"height": 38,
-							"text": "+create/update/delete bug bug"
+							"text": "+create/update/delete bug"
 						},
 						{
 							"_type": "UMLTextView",
@@ -765,7 +765,7 @@
 							"top": 752,
 							"width": 136.1279296875,
 							"height": 38,
-							"text": "+delete bug bug"
+							"text": "+delete bug"
 						},
 						{
 							"_type": "UMLTextView",
@@ -1118,6 +1118,72 @@
 							"width": 145.1416015625,
 							"height": 64,
 							"text": "3: adauga/modifica/sterge utilizatorul din repo"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGPpaPnp+4U1Mw=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "808:1304;904:1305"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGPpaQKv+4YVMQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "712:1232;716:1234"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGPpaQn6u4c8aE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "904:1304;902:1249"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGPpaRAQ+4fTfM=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "896:1248;711:1247"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGPpaRTI+4i7lo=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 936,
+							"top": 1232,
+							"width": 208,
+							"height": 51,
+							"text": "+ creata/update/delete user"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGPpaT0pe4oVP4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 936,
+							"top": 1272,
+							"width": 112,
+							"height": 51,
+							"text": "+ update user list"
 						}
 					]
 				},
